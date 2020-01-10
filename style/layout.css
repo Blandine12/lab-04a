@@ -59,6 +59,7 @@
   }
 
   .two {
+      
       float: left;
       height: 600px;
       width: 200px;
@@ -68,9 +69,10 @@
 
   .tree,
   .four {
-      float: left;
+      flex-direction: row;
+      /* float: left; */
       height: 200px;
-      width: 380px;
+      width: 760px;
       line-height: 200px;
   }
 
@@ -88,13 +90,21 @@
   }
 
   .heigh,
-  .nine,
   .ten,
   .eleven {
-      float: left;
+      flex-direction:column ;
+      /* float: left; */
       height: 250px;
       width: 50%;
       line-height: 250px;
+  }
+
+  .nine{
+    flex-direction:column ;
+    /* float: left; */
+    height: 250px;
+    width: 80%;
+    line-height: 250px;
   }
 
   .heigh,
@@ -114,3 +124,4 @@
       line-height: 150px;
   }
 }
+
