@@ -1,78 +1,116 @@
-#one {
-  background: beige;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
+.one {
+  height: 75px;
+  width: 480px;
+  line-height: 75px;
 }
 
-#two{
-  background: blanchedalmond;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
+.two {
+  height: 150px;
+  width: 480px;
+  line-height: 150px;
 }
 
-#three{
-  background: blueviolet;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
-
+.tree,
+.four {
+  height: 125px;
+  width: 480px;
+  line-height: 125px;
 }
 
-#four {
-  background: burlywood;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
+.five,
+.six {
+  height: 250px;
+  width: 480px;
+  line-height: 250px;
 }
 
-.five {
-  background: cyan;
-  width: 300px;
-  height: 600px;
+.heigh,
+.nine,
+.ten,
+.eleven {
   float: left;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
+  height: 250px;
+  width: 50%;
+  line-height: 250px;
 }
 
-.six{
-  background: darkkhaki;
-  width: 300px;
-  height: 600px;
-  float: left;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
+.nine,
+.eleven {
+  border-top: none;
 }
 
-.seven{
-  background: darkolivegreen;
-  width: 300px;
-  height: 600px;
-  float: left;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
+.seven {
+  height: 80px;
+  width: 480px;
+  line-height: 80px;
+  border-bottom: solid 1px black;
 }
 
-.eight{
-  background: deeppink;
-  width: 300px;
-  height: 600px;
-  float: left;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
+@media (min-width: 768px) {
+  body {
+      width: 960px;
+      margin: auto;
+  }
+
+  .one {
+      height: 100px;
+      width: 100%;
+      line-height: 100px;
+  }
+
+  .two {
+      float: left;
+      height: 600px;
+      width: 200px;
+      line-height: 600px;
+      border-right: none;
+  }
+
+  .tree,
+  .four {
+      float: left;
+      height: 200px;
+      width: 380px;
+      line-height: 200px;
+  }
+
+  .tree,
+  .five {
+      border-right: none;
+  }
+
+  .five,
+  .six {
+      float: left;
+      width: 380px;
+      height: 250px;
+      line-height: 250px;
+  }
+
+  .heigh,
+  .nine,
+  .ten,
+  .eleven {
+      float: left;
+      height: 250px;
+      width: 50%;
+      line-height: 250px;
+  }
+
+  .heigh,
+  .ten {
+      border: none;
+  }
+
+  .nine,
+  .eleven {
+      border-right: none;
+  }
+
+  .seven {
+      float: left;
+      height: 150px;
+      width: 760px;
+      line-height: 150px;
+  }
 }
-
-#nine{
-  background: gold;
-  height: 100px ;
-  margin:1em;
-  text-align: center;
-  clear: left;
-
-}
-

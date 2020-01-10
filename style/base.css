@@ -1,88 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: auto;
+  text-align: center;
+  border: solid 1px lightblue;
+  border-bottom: none;
+  font-size: 2rem;
+}
+
+div {
+  border: solid 1px black;
+}
 
 
-@media(min-width:960px){
-  #one {
-    background: beige;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
-  }
-  
-  #two{
-    background: blanchedalmond;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
+.one {
+  background-color: salmon;
+}
 
+.two {
+  background-color: lightseagreen;
+}
+
+.tree {
+  background-color: blueviolet;
+}
+
+.four {
+  background-color: whitesmoke;
+}
+
+.heigh {
+  background-color: plum;
+}
+
+.nine {
+  background-color: peru;
+}
+
+.ten {
+  background-color: olivedrab;
+}
+
+.eleven {
+  background-color: yellow;
+}
+
+.seven {
+  background-color: gray;
+}
+
+@media (min-width: 768px) {
+  .one {
+      background-color: navajowhite;
   }
   
-  #three{
-    background: blueviolet;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
-    float: left;
-    width: 300px;
-    height: 600px;
-  
+  .two {
+      background-color:lime;
   }
   
-  #four {
-    background: burlywood;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
-    float: left;
-    width: 300px;
-    height: 600px;
+  .tree {
+      background-color: greenyellow;
   }
   
-  .five {
-    background: cyan;
-    width: 300px;
-    height: 600px;
-    float: left;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
+  .four {
+      background-color: forestgreen;
   }
   
-  .six{
-    background: darkkhaki;
-    width: 300px;
-    height: 600px;
-    float: left;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
+  .heigh {
+      background-color: lightblue;
   }
   
-  .seven{
-    background: darkolivegreen;
-    width: 300px;
-    height: 600px;
-    float: left;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
+  .nine {
+      background-color:fuchsia;
   }
   
-  .eight{
-    background: deeppink;
-    width: 300px;
-    height: 600px;
-    float: left;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
+  .ten {
+      background-color: khaki;
   }
   
-  #nine{
-    background: gold;
-    height: 100px ;
-    margin:1em;
-    text-align: center;
-    clear: left;
+  .eleven {
+      background-color: lightslategray;
+  }
   
+  .seven {
+      background-color: lightslategray;
   }
 }
