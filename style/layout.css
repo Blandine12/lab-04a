@@ -1,0 +1,116 @@
+.one {
+  height: 75px;
+  width: 480px;
+  line-height: 75px;
+}
+
+.two {
+  height: 150px;
+  width: 480px;
+  line-height: 150px;
+}
+
+.tree,
+.four {
+  height: 125px;
+  width: 480px;
+  line-height: 125px;
+}
+
+.five,
+.six {
+  height: 250px;
+  width: 480px;
+  line-height: 250px;
+}
+
+.heigh,
+.nine,
+.ten,
+.eleven {
+  float: left;
+  height: 250px;
+  width: 50%;
+  line-height: 250px;
+}
+
+.nine,
+.eleven {
+  border-top: none;
+}
+
+.seven {
+  height: 80px;
+  width: 480px;
+  line-height: 80px;
+  border-bottom: solid 1px black;
+}
+
+@media (min-width: 768px) {
+  body {
+      width: 960px;
+      margin: auto;
+  }
+
+  .one {
+      height: 100px;
+      width: 100%;
+      line-height: 100px;
+  }
+
+  .two {
+      float: left;
+      height: 600px;
+      width: 200px;
+      line-height: 600px;
+      border-right: none;
+  }
+
+  .tree,
+  .four {
+      float: left;
+      height: 200px;
+      width: 380px;
+      line-height: 200px;
+  }
+
+  .tree,
+  .five {
+      border-right: none;
+  }
+
+  .five,
+  .six {
+      float: left;
+      width: 380px;
+      height: 250px;
+      line-height: 250px;
+  }
+
+  .heigh,
+  .nine,
+  .ten,
+  .eleven {
+      float: left;
+      height: 250px;
+      width: 50%;
+      line-height: 250px;
+  }
+
+  .heigh,
+  .ten {
+      border: none;
+  }
+
+  .nine,
+  .eleven {
+      border-right: none;
+  }
+
+  .seven {
+      float: left;
+      height: 150px;
+      width: 760px;
+      line-height: 150px;
+  }
+}

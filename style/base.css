@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: auto;
+  text-align: center;
+  border: solid 1px lightblue;
+  border-bottom: none;
+  font-size: 2rem;
+}
+
+div {
+  border: solid 1px black;
+}
+
+
+.one {
+  background-color: salmon;
+}
+
+.two {
+  background-color: lightseagreen;
+}
+
+.tree {
+  background-color: blueviolet;
+}
+
+.four {
+  background-color: whitesmoke;
+}
+
+.heigh {
+  background-color: plum;
+}
+
+.nine {
+  background-color: peru;
+}
+
+.ten {
+  background-color: olivedrab;
+}
+
+.eleven {
+  background-color: yellow;
+}
+
+.seven {
+  background-color: gray;
+}
+
+@media (min-width: 768px) {
+  .one {
+      background-color: navajowhite;
+  }
+  
+  .two {
+      background-color:lime;
+  }
+  
+  .tree {
+      background-color: greenyellow;
+  }
+  
+  .four {
+      background-color: forestgreen;
+  }
+  
+  .heigh {
+      background-color: lightblue;
+  }
+  
+  .nine {
+      background-color:fuchsia;
+  }
+  
+  .ten {
+      background-color: khaki;
+  }
+  
+  .eleven {
+      background-color: lightslategray;
+  }
+  
+  .seven {
+      background-color: lightslategray;
+  }
+}
